@@ -1,0 +1,45 @@
+{
+    "name": "gamedev-patterns-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bbohec/gamedev-patterns-ts.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bbohec/gamedev-patterns-ts/issues"
+    },
+    "homepage": "https://github.com/bbohec/gamedev-patterns-ts#readme",
+    "devDependencies": {
+        "@types/chai": "^4.2.18",
+        "@types/mocha": "^8.2.2",
+        "@types/node": "^15.6.1",
+        "@typescript-eslint/eslint-plugin": "^4.25.0",
+        "@typescript-eslint/parser": "^4.25.0",
+        "chai": "^4.3.4",
+        "eslint": "^7.27.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.23.3",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "mocha": "^8.4.0",
+        "source-map-support": "^0.5.19",
+        "typescript": "^4.3.2"
+    },
+    "mocha": {
+        "reporter": "spec",
+        "full-trace": true,
+        "require": [
+            "ts-node/register",
+            "source-map-support/register"
+        ]
+    }
+}
