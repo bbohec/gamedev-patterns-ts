@@ -1,6 +1,10 @@
 {
-    "editor.formatOnSave": true,
     "deno.enable": false,
-    "editor.tabSize": 4,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "typescript"
+    ]
 }
